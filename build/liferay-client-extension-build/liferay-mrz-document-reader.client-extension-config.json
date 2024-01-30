@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~liferay-mrz-document-reader-custom-element" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-mrz-document-reader",
+    "buildTimestamp" : 1706540766131,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Liferay MRZ Document Reader",
+    "projectId" : "liferaymrzdocumentreader",
+    "projectName" : "liferay-mrz-document-reader",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "customElement",
+    "typeSettings" : [ "friendlyURLMapping=liferay-mrz-document-reader-custom-element", "instanceable=true", "urls=js/main.737940f7.js", "useESM=true", "htmlElementName=liferay-mrz-document-reader", "portletCategoryName=category.client-extensions" ],
+    "webContextPath" : "/liferay-mrz-document-reader"
+  }
+}

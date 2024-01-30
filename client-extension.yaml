@@ -1,0 +1,13 @@
+assemble:
+    - from: build/static
+      into: static
+liferay-mrz-document-reader-custom-element:
+    friendlyURLMapping: liferay-mrz-document-reader-custom-element
+    htmlElementName: liferay-mrz-document-reader
+    instanceable: true
+    name: Liferay MRZ Document Reader
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - js/main.*.js
+    useESM: true
