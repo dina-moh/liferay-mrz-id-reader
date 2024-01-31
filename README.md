@@ -3,13 +3,13 @@
 Overview
 Liferay MRZ ID Reader is a React application designed to read Machine Readable Zone (MRZ) information from identity documents. This app utilizes OCR (Optical Character Recognition) technology to extract relevant data from passports, IDs, and other similar documents.
 
-**FEATURES**
+## FEATURES
 
 **MRZ Extraction:** Utilizes OCR to extract information from the MRZ of identity documents.
 **User-friendly Interface:** A clean and intuitive user interface for easy interaction.
 **Cross-browser Compatibility:** Compatible with major web browsers.
 
-**INSTALLATION**
+## INSTALLATION
 To run the Liferay MRZ ID Reader locally, follow these steps:
 
 Clone the repository:
@@ -34,9 +34,9 @@ npm start
 ```
 Visit http://localhost:3000 in your web browser to access the application.
 
-**API Configuration**
+## API Configuration
 In the `src/serviceRequest.js` file, you'll find the `postRequest` function responsible for making API calls. It's essential to adjust the API endpoint and request parameters based on your backend setup.
  
-**Important Note**
+## Important Note
 When calling the `postRequest` function in the `idReader.js` file, ensure that the field names in the `requestData` object match the expected format on the Liferay backend. The structure of this object should align with the expected payload on the server side.
 
